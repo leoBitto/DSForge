@@ -1,7 +1,0 @@
-theme: jekyll-theme-minimal
-theme: minima
-
-title: DSForge - docs
-description: A ready to deploy Data science project
-logo: "./assets/img/logoForgewide.png"
-favicon: "./assets/img/logoForge.ico"
