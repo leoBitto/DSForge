@@ -1,7 +1,3 @@
-Ecco una versione aggiornata della documentazione per il tuo progetto **DSForge**, con tutte le modifiche apportate:
-
----
-
 # **DSForge**  
 A template for Data Science and Data Analytics projects
 
@@ -85,6 +81,3 @@ DSForge is a template designed to streamline the setup of Data Science projects.
 - Add examples for using Airflow to automate workflows based on file additions.
 - Enhance the `scripts` directory with reusable Python functions for data transformations.
 
----
-
-Questa versione riflette tutte le modifiche implementate finora. Se hai altre specifiche o desideri aggiungere ulteriori dettagli, possiamo integrarle!
