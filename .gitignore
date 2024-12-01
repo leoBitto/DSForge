@@ -1,0 +1,6 @@
+/logs
+/config
+/data/processed/*
+/data/raw/*
+/data/final/*
+/data/models/*

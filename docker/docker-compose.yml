@@ -1,0 +1,16 @@
+services:
+  streamlit:
+    build: 
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ../data:/app/data
+      - ../app:/app/app
+      - ../notebooks:/app/notebooks
+      - ../config:/app/config
+    environment:
+      - STREAMLIT_CONFIG_FILE=../config/streamlit/config.toml
+    working_dir: /app
+    restart: unless-stopped
